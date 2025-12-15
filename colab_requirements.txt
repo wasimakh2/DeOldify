@@ -4,4 +4,5 @@ ffmpeg-python
 youtube-dl>=2019.4.17
 opencv-python>=3.3.0.10
 pillow
-tornado~=5.1.0
+tornado~=6.5.3
+fonttools>=4.61.0 # not directly required, pinned by Snyk to avoid a vulnerability
